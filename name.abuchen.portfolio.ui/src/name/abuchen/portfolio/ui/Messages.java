@@ -184,6 +184,7 @@ public class Messages extends NLS
     public static String ColumnFix;
     public static String ColumnForeignCurrencies;
     public static String ColumnGrossDividend;
+    public static String ColumnGrossProfitLoss;
     public static String ColumnGrossValue;
     public static String ColumnHeight;
     public static String ColumnHoldingPeriod;
@@ -523,6 +524,7 @@ public class Messages extends NLS
     public static String LabelClientFilterNew;
     public static String LabelClientFilterNoCustomFilterExisting;
     public static String LabelClose;
+    public static String FilterOnlyClosedTrades;
     public static String LabelColorSchema;
     public static String LabelColumns;
     public static String LabelCommon;
@@ -599,6 +601,7 @@ public class Messages extends NLS
     public static String LabelNumberDataSeries;
     public static String LabelOneOfX;
     public static String LabelOpenTrade;
+    public static String FilterOnlyOpenTrades;
     public static String LabelOrderByTaxonomy;
     public static String LabelPassword;
     public static String LabelPasswordRepeat;
@@ -700,6 +703,8 @@ public class Messages extends NLS
     public static String LabelTrades;
     public static String LabelTradesBasicStatistics;
     public static String LabelTradesProfitLoss;
+    public static String FilterOnlyLossMakingTrades;
+    public static String FilterOnlyProfitableTrades;
     public static String LabelTradesTurnoverRate;
     public static String LabelTradingActivityChart;
     public static String LabelTransactions;
@@ -1063,6 +1068,7 @@ public class Messages extends NLS
     public static String WatchlistRename;
     public static String BookmarkMenu_EditBookmarks;
     public static String FilterNotRetired;
+    public static String MenuFilterTrades;
     public static String FilterValuationNonZero;
     public static String ForceClearPersistedStateDialogTitle;
     public static String ForceClearPersistedStateMessage;
@@ -1074,6 +1080,9 @@ public class Messages extends NLS
     public static String HoldingsWarningAssetsWithNegativeValuation;
     public static String HoldingsWarningAssetsWithNegativeValuationDetails;
     public static String YearlyPerformanceHeatmapToolTip;
+    public static String SecurityMenuSetSecurityInactive;
+    public static String SecurityMenuSetMultipleSecurityInactiveConfirm;
+    public static String SecurityMenuSetSingleSecurityInactiveConfirm;
     static
     {
         // initialize resource bundle
